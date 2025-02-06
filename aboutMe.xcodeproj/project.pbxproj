@@ -13,6 +13,8 @@
 		198300FB2D54EDDB00FC5CB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 198300FA2D54EDDB00FC5CB6 /* Base */; };
 		198300FD2D54EDDD00FC5CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 198300FC2D54EDDD00FC5CB6 /* Assets.xcassets */; };
 		198301002D54EDDD00FC5CB6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 198300FF2D54EDDD00FC5CB6 /* Base */; };
+		198301082D54F2FE00FC5CB6 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198301072D54F2FE00FC5CB6 /* NextViewController.swift */; };
+		1983010A2D55417F00FC5CB6 /* eralash-param-para-pam-pam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 198301092D55417F00FC5CB6 /* eralash-param-para-pam-pam.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		198300FC2D54EDDD00FC5CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		198300FF2D54EDDD00FC5CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		198301012D54EDDD00FC5CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		198301072D54F2FE00FC5CB6 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		198301092D55417F00FC5CB6 /* eralash-param-para-pam-pam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "eralash-param-para-pam-pam.mp3"; path = "../../../../Downloads/eralash-param-para-pam-pam.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				198300F52D54EDDB00FC5CB6 /* SceneDelegate.swift */,
 				198300F72D54EDDB00FC5CB6 /* ViewController.swift */,
 				198300F92D54EDDB00FC5CB6 /* Main.storyboard */,
+				198301072D54F2FE00FC5CB6 /* NextViewController.swift */,
 				198300FC2D54EDDD00FC5CB6 /* Assets.xcassets */,
 				198300FE2D54EDDD00FC5CB6 /* LaunchScreen.storyboard */,
 				198301012D54EDDD00FC5CB6 /* Info.plist */,
+				198301092D55417F00FC5CB6 /* eralash-param-para-pam-pam.mp3 */,
 			);
 			path = aboutMe;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				198300FD2D54EDDD00FC5CB6 /* Assets.xcassets in Resources */,
+				1983010A2D55417F00FC5CB6 /* eralash-param-para-pam-pam.mp3 in Resources */,
 				198301002D54EDDD00FC5CB6 /* Base in Resources */,
 				198300FB2D54EDDB00FC5CB6 /* Base in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				198300F82D54EDDB00FC5CB6 /* ViewController.swift in Sources */,
+				198301082D54F2FE00FC5CB6 /* NextViewController.swift in Sources */,
 				198300F42D54EDDB00FC5CB6 /* AppDelegate.swift in Sources */,
 				198300F62D54EDDB00FC5CB6 /* SceneDelegate.swift in Sources */,
 			);
